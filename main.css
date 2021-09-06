@@ -1,0 +1,19 @@
+body{font-family:Helvetica,Arial,sans-serif;}
+h1{font-size:25px;margin-top:50px;}
+a{color:#1d73db;text-decoration:none;}
+a:hover{color:#589cee;}
+a:active{color:#225899;}
+.container{width:300px;text-align:center;position:relative;left:50%;margin-left:-150px;}
+.uiTextarea{width:300px;height:400px;padding:10px 20px;border:1px solid #ddd;border-radius:8px;box-sizing:border-box;}
+input[type=text],input[type=password]{width:300px;padding:10px 20px;border-radius:8px;box-sizing:border-box;border:1px solid #ddd;}
+input[type=submit]{width:300px;padding:10px 20px;border-radius:8px;box-sizing:border-box;border:0;background-color:#1d73db;color:#fff;font-weight:500;cursor:pointer;}
+input[type=submit]:hover{background-color:#589cee;}
+input[type=submit]:active{background-color:#225899;color:#eee;top:2px;}
+input[type=checkbox],label{cursor:pointer;line-height:150%;font-size:14px;opacity:1}
+input[type=checkbox],label:hover{opacity:.5}
+table{border-collapse:collapse;width:100%;width:300px;font-size:12px;}
+td{margin:0em;padding:5px 10px;vertical-align:top;}
+td:nth-of-type(odd){background-color:#ebf0f9;}
+td{text-align:center;}
+td:nth-of-type(2),td:nth-of-type(3){text-align:right;}
+tr:first-of-type td{background-color:#c5ccd7;font-weight:bold;text-align:center;}
